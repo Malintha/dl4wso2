@@ -60,12 +60,12 @@ public class InitRBM {
             for(int i=0;i<lbls.length();i++){
                 System.out.println(lbls.getDouble(i));
             }
-//            System.out.println(resultSet.getLabels());
+            System.out.println(resultSet.getLabels());
 
-//            IrisDataFetcher fetcher = new IrisDataFetcher();
-//            fetcher.fetch(150);
-//            DataSet d = fetcher.next();
-//            System.out.println(d.numExamples());
+            IrisDataFetcher fetcher = new IrisDataFetcher();
+            fetcher.fetch(150);
+            DataSet d = fetcher.next();
+            System.out.println(d.numExamples());
 
 
         }
